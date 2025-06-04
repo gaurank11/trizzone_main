@@ -13,7 +13,7 @@ import Project1 from "./pages/project1";
 import HeroPage from "./components/Hero_Page";
 import Project2 from "./pages/project2";
 import Service from "./pages/service";
-
+import Arch from "./components/Arch";
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -39,6 +39,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/properties" element={<PropertiesPage />} />
+         <Route path="/arch" element={<Arch />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/service" element={<Service />} />
