@@ -14,6 +14,7 @@ import HeroPage from "./components/Hero_Page";
 import Project2 from "./pages/project2";
 import Service from "./pages/service";
 import Arch from "./components/Arch";
+import Landscape from "./components/Landscape";
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -39,6 +40,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/properties" element={<PropertiesPage />} />
+        <Route path="/landscape" element={<Landscape />} />
          <Route path="/arch" element={<Arch />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<AboutUs />} />
