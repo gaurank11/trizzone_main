@@ -7,7 +7,7 @@ const Content = () => {
         <p className="text-gray-400 tracking-widest uppercase">
           Connect with us
         </p>
-        <h1 className="text-7xl font-light leading-tight">
+        <h1 className="text-3xl md:text-7xl font-light leading-tight">
           Together, we can{" "}
           <strong className="font-bold">do extraordinary things.</strong>
         </h1>
