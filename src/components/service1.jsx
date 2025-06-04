@@ -4,7 +4,7 @@ export default function Service1() {
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-start p-20">
       <div>
-        <h1 className="text-8xl font-semibold">
+        <h1 className="text-3xl md:text-7xl font-semibold">
           Unlock Your <br />
           Potential With <br />
           Us
